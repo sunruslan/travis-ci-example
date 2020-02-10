@@ -18,8 +18,8 @@ public class MyUnitTest {
 
         MyUnit myUnit = new MyUnit();
 
-        String result = myUnit.concatenate("one", "two");
+        String result = myUnit.concatenate("one", "three");
 
-        assertEquals("onetwothree", result);
+        assertEquals("onethree", result);
     }
 }
