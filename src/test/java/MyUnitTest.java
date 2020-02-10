@@ -12,4 +12,16 @@ public class MyUnitTest {
         assertEquals("onetwo", result);
 
     }
+
+
+
+    @Test
+    public void wrongTestConcatenate(){
+
+        MyUnit myUnit = new MyUnit();
+
+        String result = myUnit.concatenate("one", "two");
+
+        assertEquals("onetwothree", result);
+    }
 }
